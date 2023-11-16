@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>❌⭕Tic Tac Toe</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="logic.js" defer></script>
+    <!--defer makes js load after the body OR we can write script tag at very bottom of body tag-->
+  </head>
+  <body>
+    <div class="board" id="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winning-message">
+      <div data-winning-text></div>
+      <button id="restartbtn">Restart</button>
+    </div>
+  </body>
+</html>
